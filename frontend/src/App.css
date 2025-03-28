@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 800px;
+    background-color: skyblue;
+}
+
+.App{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    max-width: 800px;
+    gap : 10px;
+}
+
+h1{
+    color: blue;
+}
+
+textarea{
+    height: 80vh;
+    width: 100vh;
+}
